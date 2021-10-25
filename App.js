@@ -2,10 +2,11 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Cesta from './src/views/Cesta'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Felipe Carvalho!</Text>
+      <Cesta />
       <StatusBar style="auto" />
     </View>
   );
